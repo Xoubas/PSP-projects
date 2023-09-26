@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.IOException;
-import java.util.Scanner;
 
 /*
  * Create a program to execute the command find in Windows to count the number of 
@@ -12,14 +11,12 @@ import java.util.Scanner;
 
 public class Classmain {
 	public static void main(String[] args) throws IOException {
-		String word;
+		String word = "ley";
 		ProcessBuilder pb = new ProcessBuilder();
-		Scanner sc = new Scanner(System.in);
-		System.out.print("Introduce a string: ");
-		word = sc.nextLine();
-		sc.close();
-		pb.command("cmd.exe", "/c", "find /i /c \"" + word + "\"").redirectInput(new File("Constitucion.txt"));
+		pb.command("cmd.exe", "/c", "find /i /c \"" + word + "\"");
+		pb.redirectInput(new File("Constitucion.txt"));
 		pb.redirectOutput(new File("cosa.txt"));
 		pb.start();
+		System.exit(1);
 	}
 }
