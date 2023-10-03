@@ -1,0 +1,2 @@
+Error: Could not find or load main class C:\Users\a21javierbq\eclipse-workspace\UD1_8\src\main\java\Cositas\PSCountTotal
+Caused by: java.lang.ClassNotFoundException: C:\Users\a21javierbq\eclipse-workspace\UD1_8\src\main\java\Cositas\PSCountTotal

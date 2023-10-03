@@ -1,0 +1,2 @@
+Error: Could not find or load main class Cositas.PSCountVowel
+Caused by: java.lang.ClassNotFoundException: Cositas.PSCountVowel
