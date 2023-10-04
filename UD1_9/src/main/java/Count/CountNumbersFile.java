@@ -28,14 +28,14 @@ public class CountNumbersFile {
 
 		// Write file
 		try {
-			bw = new BufferedWriter(new FileWriter(fOut));
+			bw = new BufferedWriter(new FileWriter(fOut,true));
 			bw.write(total.toString());
 		} catch (IOException e) {
 			e.printStackTrace();
+		} finally {
+			br.close();
+			bw.close();
 		}
-
-		br.close();
-		bw.close();
 	}
 
 	public static void main(String[] args) throws IOException {
