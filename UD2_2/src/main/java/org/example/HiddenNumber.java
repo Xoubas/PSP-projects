@@ -17,9 +17,9 @@ public class HiddenNumber {
     }
 
     synchronized public int numberGuess(int num) {
-        if (!end && num!= number) {
+        if (num != number && !end) {
             return -1;
-        } else if (num == number) {
+        } else if (num == number && !end) {
             setEnd(true);
             return 1;
         } else {
