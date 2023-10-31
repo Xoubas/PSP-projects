@@ -4,18 +4,11 @@ import java.util.Objects;
 
 public class Book {
     private String title;
-    private boolean picked = false;
+    private int id;
 
-    public boolean isPicked() {
-        return picked;
-    }
-
-    public void setPicked(boolean picked) {
-        this.picked = picked;
-    }
-
-    public Book(String title) {
+    public Book(String title, int id) {
         this.title = title;
+        this.id = id;
     }
 
     public String getTitle() {
@@ -24,6 +17,10 @@ public class Book {
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public int getId() {
+        return id;
     }
 
     @Override
