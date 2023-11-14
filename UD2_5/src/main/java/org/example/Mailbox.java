@@ -3,21 +3,21 @@ package org.example;
 public class Mailbox {
     private Message message;
 
-    private void setMessage(Message m) {
+    public synchronized void setMessage(Message m) {
         this.message = m;
     }
 
     public synchronized void deposit(Message m) {
-        while (m != null) {
+        while (this.message != null) {
             try {
                 wait();
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            System.out.println("Deposited");
-            setMessage(m);
-            notify();
         }
+        System.out.println("Deposited");
+        setMessage(m);
+        notifyAll();
     }
 
     public synchronized Message collect() {
@@ -31,7 +31,7 @@ public class Mailbox {
         System.out.println("Collected");
         Message mesOut = message;
         message = null;
-        notify();
+        notifyAll();
         return mesOut;
     }
 }

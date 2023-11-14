@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Random;
+
 import static java.lang.Thread.sleep;
 
 public class Collector implements Runnable {
@@ -15,7 +17,7 @@ public class Collector implements Runnable {
             Message mes = mailbox.collect();
             System.out.println(mes.getMessage());
             try {
-                Thread.sleep(1000);
+                Thread.sleep(new Random().nextLong(3000) + 1000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
