@@ -9,30 +9,32 @@ import java.util.Enumeration;
 public class Main {
     public static void main(String[] args) throws UnknownHostException, SocketException {
         InetAddress localHost = InetAddress.getLocalHost();
-        String iaString = localHost.toString();
-        iaString = iaString.substring(8, iaString.length());
-        System.out.println(iaString);
+        String ipAddress = localHost.toString();
+        ipAddress = ipAddress.substring(8, ipAddress.length());
 
         NetworkInterface networkInterface = NetworkInterface.getByInetAddress(localHost);
-        System.out.println(networkInterface.getInterfaceAddresses().get(0).getNetworkPrefixLength());
+        short prefix = networkInterface.getInterfaceAddresses().get(0).getNetworkPrefixLength();
+        System.out.println(ipAddress + "/" + prefix);
 
-        private static String getNetworkAddress(InetAddress address, short prefixLength) {
-            byte[] ipBytes = address.getAddress();
-            int subnetMask = 0xffffffff << (32 - prefixLength);
+        System.out.println(getNetworkAddress(localHost, prefix));
+    }
 
-            // Apply bitwise AND to get the network address
-            byte[] networkBytes = new byte[4];
-            for (int i = 0; i < 4; i++) {
-                networkBytes[i] = (byte) (ipBytes[i] & (subnetMask >> (24 - 8 * i)));
-            }
+    private static String getNetworkAddress(InetAddress address, short prefixLength) {
+        byte[] ipBytes = address.getAddress();
+        int subnetMask = 0xffffffff << (32 - prefixLength);
 
-            try {
-                // Create InetAddress from the network address bytes
-                return InetAddress.getByAddress(networkBytes).getHostAddress();
-            } catch (UnknownHostException e) {
-                e.printStackTrace();
-                return null;
-            }
+        // Apply bitwise AND to get the network address
+        byte[] networkBytes = new byte[4];
+        for (int i = 0; i < 4; i++) {
+            networkBytes[i] = (byte) (ipBytes[i] & (subnetMask >> (24 - 8 * i)));
+        }
+
+        try {
+            // Create InetAddress from the network address bytes
+            return InetAddress.getByAddress(networkBytes).getHostAddress();
+        } catch (UnknownHostException e) {
+            e.printStackTrace();
+            return null;
         }
     }
 }

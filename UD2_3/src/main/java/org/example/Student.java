@@ -6,7 +6,6 @@ public class Student implements Runnable {
     private String name;
     private static int id = 43;
     private Book[] books;
-
     public Student(String name, Book[] books) {
         this.name = name;
         this.books = books;
@@ -44,6 +43,7 @@ public class Student implements Runnable {
             } while (b1 == b2);
 
             ReadBook.read(books[b1], books[b2], this);
+
             long tsleep = new Random().nextLong(10000) + 5000;
             try {
                 Thread.currentThread().sleep(tsleep);
