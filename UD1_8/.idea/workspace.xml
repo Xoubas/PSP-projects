@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fdf40a1e-00ea-405d-a25a-28a524b232b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../UD1_6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PSCountTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PSCountVowel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UD2_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/Errors_A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/Errors_E.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/Errors_I.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/Errors_O.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/Errors_U.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/fileData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/fileOut.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/src/main/java/Cositas/PSCountTotal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/src/main/java/Cositas/PSCountVowel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/target/classes/Cositas/PSCountTotal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/target/classes/Cositas/PSCountVowel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/target/classes/META-INF/maven/UD1_8/UD1_8/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD1_8/target/classes/META-INF/maven/UD1_8/UD1_8/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileOut.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cositas/PSCountTotal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cositas/PSCountVowel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD2_3/src/main/java/org/example/ReadBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD2_3/src/main/java/org/example/ReadBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD2_3/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD2_3/src/main/java/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD2_5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_2/src/main/java/org/example/IP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_2/src/main/java/org/example/IP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_2/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_2/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2YqZaUuT62MRABTY6LZ1MQDcj0m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "onboarding.tips.debug.path": "L:/ProgramacionServizos/PSP_projects/UD1_8/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="L:\ProgramacionServizos\PSP_projects\UD1_8\src\main\java\org\example" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdf40a1e-00ea-405d-a25a-28a524b232b7" name="Changes" comment="" />
+      <created>1701255135652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701255135652</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -6,6 +6,6 @@ import java.net.NetworkInterface;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-
+        IP ip = new IP();
     }
 }

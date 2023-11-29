@@ -14,7 +14,7 @@ public class ReadBook {
         }
         synchronized (bA) {
             synchronized (bB) {
-                int sleepTime = new Random().nextInt(10000) + 5000;
+                int sleepTime = new Random().nextInt(1000) + 2000;
                 System.out.println(student.getName() + " will read for " + 5 + " minutes");
                 try {
                     Thread.currentThread().sleep(sleepTime);

@@ -44,7 +44,7 @@ public class Student implements Runnable {
 
             ReadBook.read(books[b1], books[b2], this);
 
-            long tsleep = new Random().nextLong(10000) + 5000;
+            long tsleep = new Random().nextLong(1000) + 2000;
             try {
                 Thread.currentThread().sleep(tsleep);
             } catch (InterruptedException e) {
