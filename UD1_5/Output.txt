@@ -1,0 +1,36 @@
+
+Tracing route to www.iessanclemente.net [193.144.43.238]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     2 ms  liveboxfibra [192.168.1.1] 
+  2     *        *        *     Request timed out.
+  3     *        *        *     Request timed out.
+  4    23 ms    11 ms     5 ms  10.34.170.37 
+  5    16 ms    15 ms    20 ms  10.34.170.1 
+  6    25 ms    16 ms    17 ms  10.34.34.214 
+  7    16 ms    17 ms    16 ms  10.34.160.97 
+  8    19 ms    18 ms    19 ms  10.34.35.182 
+  9    14 ms    24 ms    14 ms  rediris.baja.espanix.net [193.149.1.26] 
+ 10    24 ms    33 ms    26 ms  recetga-router.red.rediris.es [130.206.201.142] 
+ 11    28 ms    32 ms    27 ms  secure.cesga.es [193.144.36.59] 
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
