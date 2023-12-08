@@ -21,16 +21,13 @@ public class Main {
         Student s1 = new Student("John", books);
         Student s2 = new Student("Sarah", books);
         Student s3 = new Student("Gonzalo", books);
-        Student s4 = new Student("Noemí", books);
 
         Thread t1 = new Thread(s1);
         Thread t2 = new Thread(s2);
         Thread t3 = new Thread(s3);
-        Thread t4 = new Thread(s4);
 
         t1.start();
         t2.start();
         t3.start();
-        t4.start();
     }
 }

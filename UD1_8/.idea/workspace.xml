@@ -5,50 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf40a1e-00ea-405d-a25a-28a524b232b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../UD1_1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_1/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_7/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CounterThread/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CounterThread/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../InfoThread/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InfoThread/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_3/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/.settings/org.jboss.ide.eclipse.as.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/src/main/java/Classmain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/target/classes/Classmain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/target/classes/META-INF/maven/ProcessBuilder/ProcessBuilder/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_3/target/classes/META-INF/maven/ProcessBuilder/ProcessBuilder/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_4/src/main/java/Classmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_4/src/main/java/Classmain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_4/target/classes/Classmain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_4/target/classes/Classmain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_4/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_5/src/main/java/Classmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_5/src/main/java/Classmain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_5/target/classes/Classmain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_5/target/classes/Classmain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_5/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_6/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_6/Output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_6/cosa.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_6/src/main/java/Classmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_6/src/main/java/Classmain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_6/target/classes/Classmain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_6/target/classes/Classmain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_6/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileData.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileOut.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/PSCountTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/PSCountTotal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD1_9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_9/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD1_9/outFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD1_9/target/classes/Count/CountNumbersFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_9/target/classes/Count/CountNumbersFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD1_9/total.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.PSCountTotal.executor": "Run",
     "Application.PSCountVowel.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -80,13 +46,15 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\quinb\Desktop\PSP\UD1_8" />
       <recent name="L:\ProgramacionServizos\PSP_projects\UD1_8\src\main\java\org\example" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="PSCountVowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.PSCountVowel" />
+  <component name="RunManager" selected="Application.PSCountTotal">
+    <configuration name="PSCountTotal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PSCountTotal" />
       <module name="UD1_8" />
+      <option name="PROGRAM_PARAMETERS" value="fileData.txt org.example.PSCountVowel" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -97,8 +65,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PSCountVowel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.PSCountVowel" />
+      <module name="UD1_8" />
+      <option name="PROGRAM_PARAMETERS" value="fileData.txt A fileOut.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PSCountTotal" />
+      <item itemvalue="Application.PSCountVowel" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PSCountTotal" />
         <item itemvalue="Application.PSCountVowel" />
       </list>
     </recent_temporary>
@@ -120,5 +107,16 @@
       <updated>1701255135652</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

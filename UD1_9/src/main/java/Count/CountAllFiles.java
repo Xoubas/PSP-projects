@@ -11,30 +11,32 @@ public class CountAllFiles {
         File folder = new File(args[0]);
         File[] listOfFiles = folder.listFiles();
         File fileDest = new File(args[1]);
-        for (File file : listOfFiles) {
-            if (file.isFile()) {
-                System.out.println(file.getName());
-                ProcessBuilder ps = new ProcessBuilder();
-                ps.command().add("java");
-                ps.command().add("-cp");
-                String classpath = System.getProperty("java.class.path");
-                ps.command().add(classpath);
-                ps.command().add("main.Count.CountNumbersFile");
-                ps.command().add(args[0]);
-                String fileData = file.getName();
-                ps.command().add(file.getName());
-                FileWriter fw = new FileWriter(fileDest, true);
-                BufferedWriter bw = new BufferedWriter(fw);
-                PrintWriter pw = new PrintWriter(bw);
-                pw.println(fileData);
-                pw.println("====================");
-                pw.flush();
-                ps.redirectOutput(ProcessBuilder.Redirect.appendTo(fileDest));
-                Process p = ps.start();
-                p.waitFor();
-                pw.println("====================");
-                pw.println();
-                pw.flush();
+
+        try (PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(fileDest, true)))) {
+            for (File file : listOfFiles) {
+                if (file.isFile()) {
+                    System.out.println(file.getName());
+
+                    // Start a new Java process for CountNumbersFile
+                    ProcessBuilder ps = new ProcessBuilder(
+                            "java",
+                            "-cp",
+                            System.getProperty("java.class.path"),
+                            "Count.CountNumbersFile",
+                            file.getAbsolutePath(),
+                            fileDest.getAbsolutePath()
+                    );
+
+                    // Redirect the output of the subprocess to the file
+                    ps.redirectOutput(ProcessBuilder.Redirect.appendTo(fileDest));
+
+                    // Start the process
+                    Process p = ps.start();
+
+                    // Wait for the process to finish
+                    p.waitFor();
+                    pw.flush();
+                }
             }
         }
     }

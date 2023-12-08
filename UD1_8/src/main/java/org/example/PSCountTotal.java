@@ -23,7 +23,7 @@ public class PSCountTotal {
         }
         for (int j = 0; j < vowels.length; j++) {
             if (processes[j].isAlive()) {
-                processes[j].waitFor();
+                System.out.println(processes[j].waitFor());
             }
         }
     }

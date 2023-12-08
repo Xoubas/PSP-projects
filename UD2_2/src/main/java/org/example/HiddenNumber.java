@@ -12,7 +12,7 @@ public class HiddenNumber {
         return end;
     }
 
-    public void setEnd(boolean end) {
+    public synchronized void setEnd(boolean end) {
         this.end = end;
     }
 
