@@ -14,13 +14,13 @@ public class Collector implements Runnable {
     @Override
     public void run() {
         while (true) {
-            Message mes = mailbox.collect();
-            System.out.println(mes.getMessage());
             try {
-                Thread.sleep(new Random().nextLong(3000) + 1000);
+                Thread.sleep(new Random().nextLong(2000));
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
+            Message mes = mailbox.collect();
+            System.out.println(mes.getMessage());
         }
     }
 }

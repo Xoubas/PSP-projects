@@ -12,13 +12,13 @@ public class Depositor implements Runnable {
     @Override
     public void run() {
         while (true) {
-            Message mes = new Message("Hello");
-            mailbox.deposit(mes);
             try {
-                Thread.sleep(new Random().nextLong(2000) + 1000);
+                Thread.sleep(new Random().nextLong(2000));
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
+            Message mes = new Message("Hello");
+            mailbox.deposit(mes);
         }
     }
 }
