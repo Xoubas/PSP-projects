@@ -27,6 +27,7 @@ public class Balloons {
                 throw new RuntimeException(e);
             }
         }
+//Quitar el método explotar aquí a lo mejor
         balloon.explode();
         System.out.println(balloon.getId() + " has exploded");
         inflatingBalloons--;
