@@ -2,7 +2,6 @@ package org.example;
 
 import java.io.*;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 public class PolybiusClient {
     public static void main(String[] args) {
