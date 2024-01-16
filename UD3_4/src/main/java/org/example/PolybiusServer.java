@@ -9,7 +9,7 @@ import java.net.Socket;
 
 public class PolybiusServer {
     public static void main(String[] args) {
-        int portNumber = 49152;
+        int portNumber = 49153;
 
         try (ServerSocket serverSocket = new ServerSocket(portNumber)) {
             System.out.println("Server is waiting for connections...");
@@ -35,7 +35,6 @@ public class PolybiusServer {
             String encryptedMessage = encrypt(clientMessage);
             System.out.println("Encrypted message: " + encryptedMessage);
             writer.println(encryptedMessage);
-
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -73,7 +72,6 @@ public class PolybiusServer {
                 }
             }
         }
-
         return encryptedMessage.toString().trim(); // Remove trailing space
     }
 }
