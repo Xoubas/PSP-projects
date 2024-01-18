@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c034b44-f8df-473a-9f70-949baaf43975" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../UD1_8/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_8/fileData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_8/fileOut.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_8/src/main/java/org/example/PSCountTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_8/src/main/java/org/example/PSCountTotal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_9/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/outFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/src/main/java/Count/CountAllFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_9/src/main/java/Count/CountAllFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/target/classes/Count/CountNumbersFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_9/target/classes/Count/CountNumbersFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/total.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServerHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +27,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Classmain.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/quinb/Desktop/PSP/UD1_4"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Classmain.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/quinb/Desktop/PSP/UD1_4&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Classmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Classmain" />
@@ -59,7 +54,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-20.0.2-azul-20.0.2-8336523bb0d9-ce1e98ff" />
+        <option value="jdk-20.0.2-azul-20.0.2-4caba194b151-eb49e076" />
       </set>
     </attachedChunks>
   </component>
