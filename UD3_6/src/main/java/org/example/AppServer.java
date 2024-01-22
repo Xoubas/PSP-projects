@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class SquareServer {
+public class AppServer {
 
     public static void main(String[] args) {
         int port = 49154;
@@ -13,7 +13,7 @@ public class SquareServer {
 
             while (true) {
                 Socket clientSocket = socket.accept();
-                new SquareServerHandler(clientSocket).getCommand();
+                new AppServerHandler(clientSocket).getCommand();
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
