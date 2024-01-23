@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4cce05-1cab-4246-a470-61ae54d4c9e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../UD1_6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_6/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NumberGameClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/NumberGameServer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/a21javierbq/Desktop/UD3_6",
+    "last_opened_file_path": "C:/Users/quinb/Desktop/PSP-projects/UD2_3",
     "onboarding.tips.debug.path": "C:/Users/quinb/Documents/2º FP/PSP/PSP-projects/UD3_6/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }

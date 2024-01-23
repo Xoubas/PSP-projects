@@ -9,7 +9,13 @@ public class AppClient {
         int port = 49154;
 
         try (Socket socket = new Socket(serverAddress, port)){
-            new AppClientHandler(socket).sendCommand();
+            Thread t1 = new Thread(new AppClientHandler(socket));
+            Thread t2 = new Thread(new AppClientHandler(socket));
+            Thread t3 = new Thread(new AppClientHandler(socket));
+
+            t1.start();
+//            t2.start();
+//            t3.start();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Random;
 
-public class AppServerHandler {
+public class AppServerHandler implements Runnable{
     private final Socket clientSocket;
     private int number;
 
@@ -14,7 +14,12 @@ public class AppServerHandler {
         clientSocket = socket;
     }
 
-    public void getCommand() {
+    @Override
+    public void run() {
+        getCommand();
+    }
+
+    private void getCommand() {
         try {
             DataInputStream input = new DataInputStream(clientSocket.getInputStream());
             String command = input.readUTF();
