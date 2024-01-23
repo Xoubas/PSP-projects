@@ -19,11 +19,9 @@ public class AppClientHandler {
             String response = input.readUTF();
             while (!response.equals("QUIT")) {
                 System.out.println("Server response: " + response);
-                if ("QUIT".equals(response)) {
-                    System.exit(5);
-                }
                 sendCommand();
             }
+            serverSocket.close();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

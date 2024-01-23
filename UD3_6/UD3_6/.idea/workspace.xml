@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4cce05-1cab-4246-a470-61ae54d4c9e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../UD1_6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_6/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppServerHandler.java" afterDir="false" />
-    </list>
+    <list default="true" id="7d4cce05-1cab-4246-a470-61ae54d4c9e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -34,7 +27,7 @@
     "Application.AppServer.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/a21javierbq/Desktop/UD3_6",
     "onboarding.tips.debug.path": "C:/Users/quinb/Documents/2º FP/PSP/PSP-projects/UD3_6/src/main/java/org/example/Main.java",

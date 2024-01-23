@@ -4,9 +4,11 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.util.Random;
 
 public class AppServerHandler {
     private final Socket clientSocket;
+    private int number;
 
     public AppServerHandler(Socket socket) {
         clientSocket = socket;
@@ -30,7 +32,7 @@ public class AppServerHandler {
                 startNewGame();
                 break;
             case "NUM":
-                // Add logic for the "NUM" command
+                guessNumber();
                 break;
             case "HELP":
                 // Add logic for the "HELP" command
@@ -46,7 +48,7 @@ public class AppServerHandler {
 
     private void startNewGame() {
         try (DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream())) {
-            output.writeUTF("Game started. Have fun!");
+            output.writeUTF("20 PLAY 5");
             getCommand();
         } catch (IOException e) {
             System.err.println("Error sending response to client.");
@@ -56,10 +58,16 @@ public class AppServerHandler {
 
     private void quitGame() {
         try (DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream())) {
-            output.writeUTF("Game quitting. Goodbye!");
+            number = new Random().nextInt(10)+1;
+            output.writeUTF("11 BYE");
+            System.exit(5);
         } catch (IOException e) {
             System.err.println("Error sending response to client.");
             e.printStackTrace();
         }
+    }
+
+    private void guessNumber(){
+
     }
 }
