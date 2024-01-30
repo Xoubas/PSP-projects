@@ -17,16 +17,16 @@ public class AppClientHandler {
         try {
             DataInputStream input = new DataInputStream(serverSocket.getInputStream());
             String response = input.readUTF();
-            while (!response.equals("QUIT")) {
+            while (!response.equals("11 BYE")) {
                 System.out.println("Server response: " + response);
                 sendCommand();
             }
             serverSocket.close();
+            System.exit(0);
         } catch (IOException e) {
             System.err.println(e.getCause());
         }
     }
-
 
     public void sendCommand() {
         try {

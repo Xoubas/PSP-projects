@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Random;
 
-public class AppServerHandler {
+public class AppServerHandler implements Runnable {
     private final Socket clientSocket;
     private int number;
     private int lives;
@@ -15,7 +15,7 @@ public class AppServerHandler {
         clientSocket = socket;
     }
 
-    public void getCommand() {
+    private void getCommand() {
         try {
             DataInputStream input = new DataInputStream(clientSocket.getInputStream());
             String command = input.readUTF();
@@ -96,7 +96,6 @@ public class AppServerHandler {
     private void quitGame() {
         try (DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream())) {
             output.writeUTF("11 BYE");
-            System.exit(5);
         } catch (IOException e) {
             System.err.println("Error sending response to client.");
             e.printStackTrace();
@@ -109,9 +108,14 @@ public class AppServerHandler {
                     "NUM <number> - guesses the number +\n" +
                     "HELP - returns this list of commands +\n" +
                     "QUIT - quits the game\n");
-
+            getCommand();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    public void run() {
+        getCommand();
     }
 }

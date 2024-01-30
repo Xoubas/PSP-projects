@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4cce05-1cab-4246-a470-61ae54d4c9e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberGameClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberGameServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD3_5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/src/main/java/org/example/AppClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/src/main/java/org/example/AppClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/src/main/java/org/example/AppServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/src/main/java/org/example/AppServerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/src/main/java/org/example/NumberGameClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UD3_6/src/main/java/org/example/NumberGameServer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppServerHandler.java" afterDir="false" />
@@ -40,9 +46,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "L:/ProgramacionServizos/PSP_projects/UD3_6/src/main/java/org/example",
+    "last_opened_file_path": "C:/Users/quinb/Desktop/PSP-projects/UD3_5",
     "onboarding.tips.debug.path": "C:/Users/quinb/Documents/2º FP/PSP/PSP-projects/UD3_6/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -54,7 +60,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.AppClient">
-    <configuration name="AppClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="AppClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppClient" />
       <module name="UD3_6" />
       <extension name="coverage">
@@ -80,6 +86,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AppClient" />
+      <item itemvalue="Application.AppServer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AppClient" />
