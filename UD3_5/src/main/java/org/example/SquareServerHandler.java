@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class SquareServerHandler {
+public class SquareServerHandler implements Runnable{
     private Socket clientSocket;
     private int number;
 
@@ -36,9 +36,18 @@ public class SquareServerHandler {
         }
     }
 
-    public void squareNumber() throws IOException {
+    private void squareNumber() throws IOException {
         getNumber();
         sendNumber();
         clientSocket.close();
+    }
+
+    @Override
+    public void run() {
+        try {
+            squareNumber();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

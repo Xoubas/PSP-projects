@@ -6,16 +6,11 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class AppClientHandler implements Runnable{
+public class AppClientHandler {
     private final Socket serverSocket;
 
     public AppClientHandler(Socket serverSocket) {
         this.serverSocket = serverSocket;
-    }
-
-    @Override
-    public void run() {
-        sendCommand();
     }
 
     private void getCommand() {
@@ -24,18 +19,16 @@ public class AppClientHandler implements Runnable{
             String response = input.readUTF();
             while (!response.equals("QUIT")) {
                 System.out.println("Server response: " + response);
-                if (response.equals("QUIT")) {
-                    System.exit(5);
-                }
                 sendCommand();
             }
+            serverSocket.close();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.err.println(e.getCause());
         }
     }
 
 
-    private void sendCommand() {
+    public void sendCommand() {
         try {
             DataOutputStream output = new DataOutputStream(serverSocket.getOutputStream());
             System.out.println("Write command: ");

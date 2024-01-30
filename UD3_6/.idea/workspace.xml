@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4cce05-1cab-4246-a470-61ae54d4c9e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberGameClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/NumberGameServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_5/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppServerHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,20 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AppClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppServer.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/quinb/Desktop/PSP-projects/UD2_3&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/quinb/Documents/2º FP/PSP/PSP-projects/UD3_6/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AppClient.executor": "Run",
+    "Application.AppServer.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "L:/ProgramacionServizos/PSP_projects/UD3_6/src/main/java/org/example",
+    "onboarding.tips.debug.path": "C:/Users/quinb/Documents/2º FP/PSP/PSP-projects/UD3_6/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="L:\ProgramacionServizos\PSP_projects\UD3_6\src\main\java\org\example" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\quinb\Documents\2º FP\PSP\PSP-projects\UD3_6\src\main\java\org\example" />
     </key>
@@ -92,5 +104,9 @@
       <updated>1705953149925</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

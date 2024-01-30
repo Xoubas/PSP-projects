@@ -6,20 +6,16 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Random;
 
-public class AppServerHandler implements Runnable{
+public class AppServerHandler {
     private final Socket clientSocket;
     private int number;
+    private int lives;
 
     public AppServerHandler(Socket socket) {
         clientSocket = socket;
     }
 
-    @Override
-    public void run() {
-        getCommand();
-    }
-
-    private void getCommand() {
+    public void getCommand() {
         try {
             DataInputStream input = new DataInputStream(clientSocket.getInputStream());
             String command = input.readUTF();
@@ -32,15 +28,16 @@ public class AppServerHandler implements Runnable{
     }
 
     private void handleCommand(String command) {
-        switch (command) {
+        String[] parts = command.split(" ");
+        switch (parts[0]) {
             case "NEW":
-                startNewGame();
+                startNewGame(Integer.parseInt(parts[1]));
                 break;
             case "NUM":
-                guessNumber();
+                guessNumber(Integer.parseInt(parts[1]));
                 break;
             case "HELP":
-                // Add logic for the "HELP" command
+                returnInfo();
                 break;
             case "QUIT":
                 quitGame();
@@ -51,10 +48,45 @@ public class AppServerHandler implements Runnable{
         }
     }
 
-    private void startNewGame() {
+    private void startNewGame(int num) {
+        number = new Random().nextInt(10) + 1;
+        lives = num;
+        System.out.println(number);
         try (DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream())) {
-            output.writeUTF("20 PLAY 5");
+            output.writeUTF("20 PLAY " + num);
             getCommand();
+        } catch (IOException e) {
+            System.err.println("Error sending response to client.");
+            e.printStackTrace();
+        }
+    }
+
+    private void guessNumber(int num) {
+        try (DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream())) {
+            if (num < number) {
+                lives--;
+                if (lives < 0) {
+                    output.writeUTF("70 LOSE " + number);
+                    getCommand();
+                }
+                output.writeUTF("25 LOW");
+                getCommand();
+
+            } else if (num > number) {
+                lives--;
+                if (lives < 0) {
+                    output.writeUTF("70 LOSE " + number);
+                    getCommand();
+                }
+                output.writeUTF("35 HIGH");
+                getCommand();
+
+            } else {
+                if (lives >= 0) {
+                    output.writeUTF("50 WIN");
+                    getCommand();
+                }
+            }
         } catch (IOException e) {
             System.err.println("Error sending response to client.");
             e.printStackTrace();
@@ -63,7 +95,6 @@ public class AppServerHandler implements Runnable{
 
     private void quitGame() {
         try (DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream())) {
-            number = new Random().nextInt(10)+1;
             output.writeUTF("11 BYE");
             System.exit(5);
         } catch (IOException e) {
@@ -72,7 +103,15 @@ public class AppServerHandler implements Runnable{
         }
     }
 
-    private void guessNumber(){
+    private void returnInfo() {
+        try (DataOutputStream output = new DataOutputStream(clientSocket.getOutputStream())) {
+            output.writeUTF("NEW <number of lives> - starts a new game with the given number of lives +\n" +
+                    "NUM <number> - guesses the number +\n" +
+                    "HELP - returns this list of commands +\n" +
+                    "QUIT - quits the game\n");
 
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

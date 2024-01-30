@@ -11,17 +11,11 @@ public class AppServer {
         try (ServerSocket socket = new ServerSocket(port, 6)) {
             System.out.println("Waiting for client...");
 
-            while(true) {
+            while (true) {
                 Socket clientSocket = socket.accept();
                 System.out.println("10 Number game server ready");
 
-                Thread t1 = new Thread(new AppServerHandler(clientSocket));
-                Thread t2 = new Thread(new AppServerHandler(clientSocket));
-                Thread t3 = new Thread(new AppServerHandler(clientSocket));
-
-                t1.start();
-//                t2.start();
-//                t3.start();
+                new AppServerHandler(clientSocket).getCommand();
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
