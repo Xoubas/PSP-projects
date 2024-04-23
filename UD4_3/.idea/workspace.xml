@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d4cce05-1cab-4246-a470-61ae54d4c9e8" name="Changes" comment="">
+    <list default="true" id="97af2ce7-c540-4b68-b182-c16c0f70fecf" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../UD3_8/src/main/java/org/example/ContactClient.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../UD3_8/src/main/java/org/example/ContactServer.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../UD3_8/src/main/java/org/example/ContactServerWorker.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../UD3_8/src/main/java/org/example/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../UD3_8/src/main/java/org/example/PhoneBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD4_10/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD4_3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SendEmails/src/main/java/org/example/SendEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SendEmails/src/main/java/org/example/SendEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD2_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD2_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD2_4/src/main/java/org/example/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD2_4/src/main/java/org/example/Greeting.java" afterDir="false" />
@@ -20,11 +19,14 @@
       <change beforePath="$PROJECT_DIR$/../UD3_4/src/main/java/org/example/PolybiusClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_4/src/main/java/org/example/PolybiusClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD3_4/src/main/java/org/example/PolybiusServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_4/src/main/java/org/example/PolybiusServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_5/src/main/java/org/example/SquareServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD3_7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_7/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_6/src/main/java/org/example/AppClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_6/src/main/java/org/example/AppClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_6/src/main/java/org/example/AppServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_6/src/main/java/org/example/AppServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_7/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_7/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD3_7/src/main/java/org/example/RandomWordServerWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_7/src/main/java/org/example/RandomWordServerWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD3_8/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_8/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD3_8/.idea/.gitignore" beforeDir="false" />
@@ -37,10 +39,6 @@
       <change beforePath="$PROJECT_DIR$/../UD3_8/src/main/java/org/example/server/PhoneBook.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD3_8/src/main/java/org/example/server/PhonebookServer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../UD3_8/src/main/java/org/example/server/PhonebookServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD4_10/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD4_10/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD4_10/src/main/java/org/example/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD4_10/src/main/java/org/example/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD4_10/src/main/java/org/example/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD4_10/src/main/java/org/example/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD4_10/src/main/java/org/example/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD4_10/src/main/java/org/example/ServerHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,86 +48,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2bK9wxdL6YoylMvXQJRjgaOKuUC" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2dZuKH0Wtkh1y2rC6OrX8goftK3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AppClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppServer.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/quinb/Desktop/PSP-projects/UD3_6&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/quinb/Documents/2º FP/PSP/PSP-projects/UD3_6/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="L:\ProgramacionServizos\PSP_projects\UD3_6\src\main\java\org\example" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\quinb\Documents\2º FP\PSP\PSP-projects\UD3_6\src\main\java\org\example" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.AppClient">
-    <configuration name="AppClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.AppClient" />
-      <module name="UD3_6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.AppServer" />
-      <module name="UD3_6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.AppClient" />
-      <item itemvalue="Application.AppServer" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.AppClient" />
-        <item itemvalue="Application.AppServer" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7d4cce05-1cab-4246-a470-61ae54d4c9e8" name="Changes" comment="" />
-      <created>1705953149925</created>
+      <changelist id="97af2ce7-c540-4b68-b182-c16c0f70fecf" name="Changes" comment="" />
+      <created>1710227858629</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1705953149925</updated>
+      <updated>1710227858629</updated>
     </task>
     <servers />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

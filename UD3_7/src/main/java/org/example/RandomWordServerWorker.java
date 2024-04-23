@@ -50,7 +50,5 @@ public class RandomWordServerWorker implements Runnable {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-
     }
 }

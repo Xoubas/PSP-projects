@@ -21,7 +21,6 @@ public class AppServer {
             while (true) {
                 Socket clientSocket = socket.accept();
                 System.out.println("10 Number game server ready");
-
                 Thread thread = new Thread(new AppServerHandler(clientSocket));
                 thread.start();
             }

@@ -41,14 +41,12 @@ public class SendEmail {
             message.setSubject("Correo importante");
             //Email's body
             Multipart multipart = new MimeMultipart();
-            multipart.addBodyPart(bodyPart);
-            multipart.addBodyPart(attachmentPart);
+//            multipart.addBodyPart(bodyPart);
+//            multipart.addBodyPart(attachmentPart);
             message.setText("La mano arriba cintura sola la media vuelta...");
-
 
             Transport.send(message);
             System.out.println("Email sent.");
-            i--;
         } catch (MessagingException e) {
             e.printStackTrace();
             System.out.println("Error sending mail.");

@@ -8,9 +8,12 @@ public class IP {
     public static void main(String[] args) throws IOException {
         InetAddress localHost = InetAddress.getLocalHost();
         String ipAddress = localHost.toString();
-        ipAddress = ipAddress.substring(8, ipAddress.length());
+        System.out.println("LocalHost IPAdress: " + ipAddress);
+        ipAddress = ipAddress.substring(8);
 
         NetworkInterface networkInterface = NetworkInterface.getByInetAddress(localHost);
+        System.out.println("Network interface name: " + networkInterface);
+        System.out.println(networkInterface.getInterfaceAddresses());
         short prefix = networkInterface.getInterfaceAddresses().get(0).getNetworkPrefixLength();
         System.out.println(ipAddress + "/" + prefix);
 

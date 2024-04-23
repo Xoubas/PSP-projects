@@ -5,7 +5,7 @@ import java.util.Random;
 import static java.lang.Thread.sleep;
 
 public class Greeting {
-    private boolean teacherArrived = false;
+    private volatile boolean teacherArrived = false;
 
     public synchronized void teacherEnters(String name) {
         try {

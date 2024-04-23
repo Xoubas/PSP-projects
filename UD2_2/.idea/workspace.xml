@@ -5,28 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d67c0406-ddf8-43e6-8742-3cc4ea773767" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../UD1_8/Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_8/fileData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UD1_8/fileOut.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_8/src/main/java/org/example/PSCountTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_8/src/main/java/org/example/PSCountTotal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_9/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/outFile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/src/main/java/Count/CountAllFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_9/src/main/java/Count/CountAllFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/target/classes/Count/CountNumbersFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UD1_9/target/classes/Count/CountNumbersFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD1_9/total.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD2_1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD2_1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HiddenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HiddenNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD2_3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD2_3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD2_3/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD2_3/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD2_4/src/main/java/org/example/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD2_4/src/main/java/org/example/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD2_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD2_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_2/src/main/java/org/example/IP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_2/src/main/java/org/example/IP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_6/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UD3_6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_7/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_7/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UD3_7/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/quinb/Desktop/PSP/UD2_5"
+    "last_opened_file_path": "C:/Users/quinb/Desktop/PSP-projects/UD2_2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,13 +66,6 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-20.0.2-azul-20.0.2-8336523bb0d9-ce1e98ff" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

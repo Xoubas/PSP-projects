@@ -9,7 +9,7 @@ import java.net.Socket;
 
 public class PolybiusServer {
     public static void main(String[] args) {
-        int portNumber = 49153;
+        int portNumber = 50000;
 
         try (ServerSocket serverSocket = new ServerSocket(portNumber)) {
             System.out.println("Server is waiting for connections...");
